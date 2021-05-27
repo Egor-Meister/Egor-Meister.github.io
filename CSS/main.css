@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+:root {
+  --White: #FDFDF7;
+  --Background: #272822;
+  --Link: #EBE076;
+}
+
+body {
+  background: var(--Background);
+  margin: 0;
+  font-family: 'Ubuntu Mono', monospace;
+  color: var(--White);
+}
+
+.EgorHeader {
+  padding: 6em 0em 0em 15%;
+}
+
+.EgorHeader .Header {
+  text-decoration: none;
+  font-weight: 800;
+  color: var(--White);
+  font-size: 2em;
+}
+
+.Hero {
+  line-height: 18px;
+  padding-left: 15%;
+  padding-right: 10%;
+}
+
+a {
+  color: var(--Link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--White);
+}
+/*# sourceMappingURL=main.css.map */
